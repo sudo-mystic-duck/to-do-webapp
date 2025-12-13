@@ -102,16 +102,15 @@
     >
         <ul class="w-4/5">
             {#each todos as todo}
-            <li class="bg-white border-2 border-gray-700 p-1 rounded-2xl break-after-auto overflow-x-auto">
-                <label>
-                    <input bind:checked={todo.done} type="checkbox" />
-                    {todo.text}
-                </label>
-            </li>
-        {/each}
+                <li class="bg-white border-2 border-gray-700 p-1 rounded-2xl break-after-auto overflow-x-auto">
+                    <label>
+                        <input bind:checked={todo.done} type="checkbox" />
+                        {todo.text}
+                    </label>
+                </li>
+            {/each}
         </ul>
     </div>
-
     <a
             href="https://www.flaticon.com/free-icons/to-do-list"
             class="bg-white hover:bg-black border-2 text-black hover:text-white border-gray-700 hover:border-gray-400
