@@ -41,6 +41,7 @@
 </script>
 
 
+<title>To Do WebApp</title>
 
 <div class="h-screen bg-linear-to-tl from-blue-700 dark:from-blue-800 via-purple-400 dark:via-purple-800 to-red-400 dark:to-red-800">
     <h1
