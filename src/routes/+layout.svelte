@@ -5,6 +5,7 @@
 
 <svelte:head>
     <link rel="icon" href={todolistIcon} />
+    <title>To Do WebApp</title>
 </svelte:head>
 
 <slot />
